@@ -16,6 +16,7 @@
       <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
       <PackageReference Include="Microsoft.Playwright" Version="1.32.0" />
+      <PackageReference Include="MyBot" Version="1.5.0.4" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.4" />
       <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
@@ -23,12 +24,6 @@
 
     <ItemGroup>
       <Folder Include="Modules" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Reference Include="MyBot">
-        <HintPath>..\..\..\Repos\QQChannelFramework\bin\Debug\net6.0\MyBot.dll</HintPath>
-      </Reference>
     </ItemGroup>
 
 </Project>

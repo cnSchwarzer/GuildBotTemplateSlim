@@ -4,6 +4,7 @@
 ### 依赖
 ```
 - MyBot
+- Newtonsoft.Json
 
 // 日志
 - Microsoft.Extensions.Logging
@@ -13,6 +14,9 @@
 // 数据库
 - Microsoft.EntityFrameworkCore
 - Npgsql.EntityFrameworkCore.PostgreSQL
+
+// Markdown 渲染
+- Microsoft.Playwright
 ```
 
 ### 开发
